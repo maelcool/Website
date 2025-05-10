@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+:root {
+  --background-color: #ffffff;
+  --default-color: #272829;
+  --heading-color: #050d18;
+  --accent-color: #149ddd;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+}
+
+/* Body */
+body {
+  background-color: var(--background-color);
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0 15px;
+  width: 300px;
+  transition: all ease-in-out 0.3s;
+  overflow-y: auto;
+  z-index: 997;
+  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.header .profile-img {
+  position: fixed;  /* Position it relative to the .header container */
+  top: 5%;  /* Adjust this value to move the image upwards */
+  left: 120px;  /* Centers the image horizontally */
+  transform: translateX(-50%);  /* Adjusts the centering to be perfectly centered */
+  z-index: 1000;  /* Keeps it above the navbar */
+}
+
+/* Image Style */
+.header .profile-img img {
+  width: 120px;  /* Image size */
+  height: 120px;
+  border-radius: 50%;  /* Circular image */
+  object-fit: cover;  /* Makes sure the image fits nicely */
+  border: 5px solid var(--default-color);  /* Border color */
+}
+
+
+/* Navbar Styling */
+#navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 25%;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background-color: var(--background-color);
+  z-index: 999;
+}
+
+#navbar .navbarlink {
+  display: block;
+  padding: 15px;
+  color: var(--default-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#navbar .navbarlink:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
