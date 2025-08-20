@@ -59,6 +59,20 @@ body {
   border: 5px solid var(--default-color);  /* Border color */
 }
 
+/* H3 Styling */
+.Portfolio-Title {
+   font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Navbar Styling */
 #navbar {
