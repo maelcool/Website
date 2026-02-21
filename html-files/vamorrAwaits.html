@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mael Pittet Portfolio</title>
+  <link rel="stylesheet" href="../styles.css">
+  <!-- Bootstrap CSS (from CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header id="header" class="header">
+    <!-- Profile Image -->
+    <div class="profile-img">
+      <a href="../index.html">
+        <img src="../assets/img/ProfileFoto.jpeg" alt="Profile Picture" class="img-fluid rounded-circle">
+      </a>
+    </div>
+
+    <!-- Navbar -->
+    <ul id="navbar">
+      <li><a class="navbarlink" href="portfolio.html">Portfolio</a></li>
+      <li><a class="navbarlink" href="otherProjects.html">Other Projects</a></li>
+      <li><a class="navbarlink" href="contact.html">Contact</a></li>
+      <li><a class="navbarlink" href="vamorrAwaits.html">Vamorr Awaits</a></li>
+    </ul>
+  </header>
+<div class="text">
+    <h1 class="page-title">Vamorr Awaits</h1>
+
+    <p>
+        Projektidee und Motivation
+        Dieses Projekt entstand aus meiner Begeisterung für Kartenspiele wie \textit{Magic: The Gathering} und digitalen Deckbuildern wie \textit{Slay the Spire} und \textit{Across the Obelisk}. Mich fasziniert, wie viele verschiedene Strategien und Synergien ein Kartenspiel erlauben und wie kleine Entscheidungen grosse Auswirkungen auf den Spielverlauf haben können. 
+
+        Die Idee meines Projekts ist ein roguelike Kartenspiel, in dem Spieler:innen zwischen verschiedenen Charakteren (z.B. Magierin oder Ritter) wählen und sich dann auf einem von drei zufällig generierten Pfaden durch Räume bewegen. Jeder Raum kann Gegner, Mystery-Events, Camps zum Aufrüsten von Karten oder Kisten enthalten. Nach einer bestimmten Anzahl von Räumen folgt ein Bosskampf. Das Spiel ist noch in Entwicklung, die Mechaniken stehen, das visuelle Konzept ist bereits umgesetzt.
+        
+    <p>Fokus und technische Umsetzung 
+    Der technische Fokus liegt auf der Umsetzung eines modularen, flexiblen Systems: Alle Karten und Gegnerdaten werden über Ressourcen verwaltet, ergänzt durch Dictionaries, Enums und Signals in Godot. Die Kartenlogik passt sich dynamisch an die gewählten Charaktere an, Effekte werden zentral verwaltet, wodurch neue Karten leicht hinzugefügt oder bestehende modifiziert werden können. 
+
+    Für die visuelle Gestaltung habe ich alle Assets selbst erstellt, inklusive Animationen und Partikeleffekten. Besonders spannend war die Arbeit mit Lichtquellen, um die Atmosphäre der Räume zu gestalten und Bosskämpfe epischer wirken zu lassen. Tools wie Asprite und Card Engine erleichtern die Erstellung der Karten, während GitHub die Versionskontrolle sicherstellt. Ausserdem nutze ich KI-Unterstützung (ChatGPT) zur Fehlersuche und Ideenfindung.
+    </p>
+    Game-Design und Spielerlebnis
+    Das Spiel soll strategisch und taktisch fordernd sein: Entscheidungen beim Deckbau und während Kämpfen haben direkte und langfristige Auswirkungen. Spieler:innen müssen abwägen, ob sie neue Karten aufnehmen, bestehende Karten upgraden oder sich heilen. Die zufällige Raumgenerierung und die verschiedenen Loot-Optionen erhöhen die Wiederspielbarkeit und erlauben, unterschiedliche Strategien zu testen. Ein kurzes Tutorial und klare Symbole auf den Karten (z.B. Schwert für Schaden, Buch für Mana) erleichtern den Einstieg und sorgen für sofortiges Feedback.
+
+    Die Story ist subtil eingebunden: Spieler:innen bewegen sich im Königreich Vamorr, befreien die Königin Ysabelle und retten das Leben einer Freundin. Lore-Elemente in bestimmten Räumen tragen zur Atmosphäre bei, beeinflussen aber kaum das Gameplay. So bleibt die taktische Entscheidung immer im Vordergrund.
+    </p>
+    <p>
+    Lern- und Entwicklungsprozess
+    Dieses Projekt ist noch nicht abgeschlossen, erlaubt mir aber, viele Fähigkeiten aus vorherigen Projekten anzuwenden und zu erweitern: Modulares Programmieren, strategische Planung, visuelles Design und Lichtgestaltung, effiziente Datenorganisation und Playtesting. Besonders wichtig ist mir das Playtesting mit Freunden, um Balance und strategische Tiefe zu prüfen.  
+
+    Ich lerne, wie man ein komplexes System iterativ aufbaut, wie man Mechaniken modular gestaltet, und wie man die Spielerfahrung gezielt steuert. Auch wenn das Spiel noch in der Entwicklung ist, hilft mir das Projekt, meine Fähigkeiten im Game Design, in der technischen Umsetzung und im Storytelling gleichzeitig zu verbessern.
+
+    </p>
+    <br>
+  </div>
+
+  <!-- Footnotes section -->
+<footer>
+  <div class="footer-content">
+    <p>© 2025 Mael Pittet. All rights reserved.</p>
+    <p>
+      Connect with me:
+      <a href="https://github.com/maelcool" target="_blank" rel="noopener noreferrer">GitHub</a> |
+      <a href="https://linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      <a href="mailto:maelpittet@protonmail.com" rel="noopener noreferrer">Mail</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>
